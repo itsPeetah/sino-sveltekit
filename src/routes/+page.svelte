@@ -117,7 +117,7 @@ function handleKeydown(event : KeyboardEvent) {
 	}
 
 	.chat-container {
-		height: 100%;
+		height: 100dvh;
 		display: flex;
 		flex-direction: column;
 		justify-content: end;
