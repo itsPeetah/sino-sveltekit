@@ -72,7 +72,7 @@ function handleKeydown(event : KeyboardEvent) {
 
 <div class="chat-container">
 	<div class="chat">
-		<h1 class="top-bar">Sino '23</h1>
+		<h1 class="top-bar">Sino 2023</h1>
 	
 		<div class="scrollable" bind:this={div}>
 			{#each comments as comment}
@@ -117,16 +117,16 @@ function handleKeydown(event : KeyboardEvent) {
 	}
 
 	.chat-container {
+		flex-grow: 1;
 		height: 100dvh;
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
 		align-items: center;
 	}
 	.chat {
 		display: flex;
 		flex-direction: column;
-		height: 100%;
+		flex-grow: 1;
 		width: 100%;
 		overflow: hidden;
 	}

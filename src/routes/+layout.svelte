@@ -10,6 +10,7 @@
 
 <style>
 	.app {
+		/* height: 100%; */
 		height: 100dvh;
 		width: 100%;
 	}
